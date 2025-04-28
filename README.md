@@ -12,8 +12,12 @@ Overcome Common GAN Training Challenges
 Address potential issues like mode collapse, unstable training, or vanishing gradients to improve the performance of the model.
 Document and Present Findings
 Summarize the process, results, challenges, and learnings in a clear and well-structured format for academic or practical presentation.
+
+
+
 MODELS USED
 In this project, a Deep Convolutional Generative Adversarial Network (DCGAN) was used to generate synthetic face images. DCGAN consists of two neural networks:
 The Generator, which takes random noise as input and produces fake images.
 The Discriminator, which distinguishes between real and fake images.
 Both networks are trained together in a game-like setup where the generator tries to fool the discriminator. The model was trained on 64×64 resolution images to reduce GPU load, while still capturing key facial features. DCGAN was chosen for its simplicity and strong performance in image generation tasks.
+
